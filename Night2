@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset=UTF-8>
+  <title>Title</title>
+</head>
+
+<body>
+
+<script>
+
+  const me = {
+    name: 'Ed'
+    age: '59',
+  }
+document.write(me.name + me.age);
+document.write('<h1>hello</h1>');
+</script>
+
+</body>
+
+</html>
