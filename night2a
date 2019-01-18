@@ -1,0 +1,14 @@
+<DOCTYPEhtml>
+<html lang="en">
+<head>
+</head>
+  <meta charset="UTF-8">
+  <title> Title</title>
+
+<body>
+<script>
+const first = 'Ed';
+const last = 'Monson';
+</script>
+</body>
+document.write(`<h1>${first} ${last}<h1>`);

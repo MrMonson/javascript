@@ -1,0 +1,27 @@
+<DOCTYPEhtml>
+<html lang="en">
+<head>
+</head>
+  <meta charset="UTF-8">
+  <title> Title</title>
+
+<body>
+<button onclick="randomName()">Random</button>
+<script>
+    const names = ['melissa', 'edgar', 'Ed'] ;
+    function randomName() {
+      const name = names[Math.floor(Math.random() * names.length)];
+      console.log (name);
+      document.write(name);
+}
+    function allNames {
+    names.forEach( name=> {
+
+    })
+    }
+
+
+
+</script>
+</body>
+document.write(`<h1>${first} ${last}<h1>`);

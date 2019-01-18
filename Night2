@@ -7,8 +7,28 @@
 </head>
 
 <body>
-
+<img src="https://goo.gl/images/FMHhxn" alt="car"
 <script>
+  const imgs = document.getElementsByTagName('img');
+    const img = imgs[0];
+    console.log('img', imgs[0]);
+    const px = 'px';
+    let move = 0;
+
+    img.style['background-color'] = 'red';
+    img.style.padding = '20px';
+    img.style.position = 'absolute';
+    img.style.right = 0 + px;
+    const action = setInterval( () =>  {
+        move += 20;
+        img.style.padding = move + px;
+        if (move > 200) {
+            clearInterval(action);
+        }
+    }, 100);
+
+</style>
+
 
   const me = {
     name: 'Ed'
